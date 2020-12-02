@@ -1,0 +1,24 @@
+/*
+ Theme Name:   Blossom Recipe Child
+ Description:  Blossom Recipe Child Theme
+ Author:       Kevin Milet
+ Template:     blossom-recipe
+ Version:      1.0.0
+*/
+
+.woocommerce .site-content .page-header .container {
+    display: none;
+}
+
+.woocommerce #secondary {
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.blog .wp-custom-header {
+    display: none;
+}
