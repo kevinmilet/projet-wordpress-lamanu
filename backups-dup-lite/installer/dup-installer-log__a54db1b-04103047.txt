@@ -1,0 +1,808 @@
+[PHP ERR][WARN] MSG:file_exists(): open_basedir restriction in effect. File(/var/www/clients/client189/web247/wp-config.php) is not within the allowed path(s): (/var/www/clients/client189/web247/web:/var/www/clients/client189/web247/private:/var/www/clients/client189/web247/tmp:/var/www/asuka-sushi.am.manusien-ecolelamanu.fr/web:/srv/www/asuka-sushi.am.manusien-ecolelamanu.fr/web:/usr/share/php5:/usr/share/php:/tmp:/usr/share/phpmyadmin:/etc/phpmyadmin:/var/lib/phpmyadmin:/dev/random:/dev/urandom) [CODE:2|FILE:/var/www/clients/client189/web247/web/dup-installer/classes/class.installer.state.php|LINE:57]
+[PHP ERR][WARN] MSG:file_exists(): open_basedir restriction in effect. File(/var/www/clients/client189/web247/wp-config.php) is not within the allowed path(s): (/var/www/clients/client189/web247/web:/var/www/clients/client189/web247/private:/var/www/clients/client189/web247/tmp:/var/www/asuka-sushi.am.manusien-ecolelamanu.fr/web:/srv/www/asuka-sushi.am.manusien-ecolelamanu.fr/web:/usr/share/php5:/usr/share/php:/tmp:/usr/share/phpmyadmin:/etc/phpmyadmin:/var/lib/phpmyadmin:/dev/random:/dev/urandom) [CODE:2|FILE:/var/www/clients/client189/web247/web/dup-installer/ctrls/ctrl.s1.php|LINE:69]
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 11:19:00
+* VERSION: 1.3.40
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.12                                |7.3.19-1~deb10u1
+OS__________________: WINNT                                 |Linux
+CREATED_____________: 2020-12-04 10:30:47
+WP VERSION__________: 5.5.3
+DUP VERSION_________: 1.3.40
+DB__________________: 10.4.16
+DB TABLES___________: 51
+DB ROWS_____________: 2,003
+DB FILE SIZE________: 5.3MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.19-1~deb10u1 | SAPI: cgi-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/var/www/clients/client189/web247/web"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://asuka-sushi.am.manusien-ecolelamanu.fr/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/var/www/clients/client189/web247/web/20201204_asukasushi_[HASH]_20201204103047_archive.zip"
+SIZE________________: 48.34MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/clients/client189/web247/web/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:600]
+Permissions setting on file '/var/www/clients/client189/web247/web/stats/.htaccess' failed
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/clients/client189/web247/web/dup-installer/ctrls/ctrl.s1.php|LINE:407]
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/clients/client189/web247/web/dup-installer/ctrls/ctrl.s1.php|LINE:407]
+
+STEP-1 COMPLETE @ 11:19:13 - RUNTIME: 12.6308 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'am_kevinm'@'localhost' (using password: YES) [CODE:2|FILE:/var/www/clients/client189/web247/web/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'am_kevinm'@'localhost' (using password: YES)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'am_kevinm'@'localhost' (using password: YES) [CODE:2|FILE:/var/www/clients/client189/web247/web/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'am_kevinm'@'localhost' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 11:32:49
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.25 -- Build Server: 10.4.16
+FILE SIZE:	dup-database__[HASH].sql (1.83MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE:	STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/var/www/clients/client189/web247/web/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [10.3.25] is less than the build version [10.4.16].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:/var/www/clients/client189/web247/web/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:393]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	448
+
+kiki_actionscheduler_actions: (7)
+kiki_actionscheduler_claims: (0)
+kiki_actionscheduler_groups: (1)
+kiki_actionscheduler_logs: (21)
+kiki_commentmeta: (0)
+kiki_comments: (1)
+kiki_duplicator_packages: (0)
+kiki_links: (0)
+kiki_mailchimp_carts: (0)
+kiki_mailchimp_jobs: (0)
+kiki_options: (341)
+kiki_postmeta: (761)
+kiki_posts: (208)
+kiki_term_relationships: (82)
+kiki_term_taxonomy: (59)
+kiki_termmeta: (35)
+kiki_terms: (59)
+kiki_usermeta: (60)
+kiki_users: (1)
+kiki_wc_admin_note_actions: (18)
+kiki_wc_admin_notes: (12)
+kiki_wc_category_lookup: (1)
+kiki_wc_customer_lookup: (0)
+kiki_wc_download_log: (0)
+kiki_wc_order_coupon_lookup: (0)
+kiki_wc_order_product_lookup: (0)
+kiki_wc_order_stats: (0)
+kiki_wc_order_tax_lookup: (0)
+kiki_wc_product_meta_lookup: (11)
+kiki_wc_reserved_stock: (0)
+kiki_wc_tax_rate_classes: (2)
+kiki_wc_webhooks: (0)
+kiki_woocommerce_api_keys: (0)
+kiki_woocommerce_attribute_taxonomies: (0)
+kiki_woocommerce_downloadable_product_permissions: (0)
+kiki_woocommerce_log: (0)
+kiki_woocommerce_order_itemmeta: (0)
+kiki_woocommerce_order_items: (0)
+kiki_woocommerce_payment_tokenmeta: (0)
+kiki_woocommerce_payment_tokens: (0)
+kiki_woocommerce_sessions: (1)
+kiki_woocommerce_shipping_zone_locations: (1)
+kiki_woocommerce_shipping_zone_methods: (1)
+kiki_woocommerce_shipping_zones: (1)
+kiki_woocommerce_tax_rate_locations: (0)
+kiki_woocommerce_tax_rates: (0)
+kiki_yoast_indexable: (135)
+kiki_yoast_indexable_hierarchy: (37)
+kiki_yoast_migrations: (18)
+kiki_yoast_primary_term: (3)
+kiki_yoast_seo_links: (19)
+Removed '126' cache/transient rows
+
+INSERT DATA RUNTIME: 3.2374 sec.
+STEP-2 COMPLETE @ 11:32:52 - RUNTIME: 3.2662 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 11:33:09
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Asuka Sushi"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/xampp/htdocs/projects/projet-wordpress-lamanu"
+path_new______________: "/var/www/clients/client189/web247/web"
+siteurl_______________: "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+url_old_______________: "http://projetwordpress.kevin"
+url_new_______________: "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "kiki_actionscheduler_actions"____________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_actionscheduler_claims"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_actionscheduler_groups"_____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_actionscheduler_logs"_______________________[ROWS:    21][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_comments"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_mailchimp_carts"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_mailchimp_jobs"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_options"____________________________________[ROWS:   341][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_postmeta"___________________________________[ROWS:   761][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_posts"______________________________________[ROWS:   208][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_term_relationships"_________________________[ROWS:    82][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_term_taxonomy"______________________________[ROWS:    59][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_termmeta"___________________________________[ROWS:    35][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_terms"______________________________________[ROWS:    59][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_usermeta"___________________________________[ROWS:    60][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_users"______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_wc_admin_note_actions"______________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_wc_admin_notes"_____________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_wc_category_lookup"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_wc_customer_lookup"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_wc_download_log"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_wc_order_coupon_lookup"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_wc_order_product_lookup"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_wc_order_stats"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_wc_order_tax_lookup"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_wc_product_meta_lookup"_____________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_wc_reserved_stock"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_wc_tax_rate_classes"________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_wc_webhooks"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_woocommerce_api_keys"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_woocommerce_attribute_taxonomies"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_woocommerce_log"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_woocommerce_order_itemmeta"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_woocommerce_order_items"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_woocommerce_payment_tokenmeta"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_woocommerce_payment_tokens"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_woocommerce_sessions"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_woocommerce_shipping_zone_locations"________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_woocommerce_shipping_zone_methods"__________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_woocommerce_shipping_zones"_________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_woocommerce_tax_rate_locations"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_woocommerce_tax_rates"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "kiki_yoast_indexable"____________________________[ROWS:   135][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_yoast_indexable_hierarchy"__________________[ROWS:    37][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_yoast_migrations"___________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_yoast_primary_term"_________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+
+EVALUATE TABLE: "kiki_yoast_seo_links"____________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/projects/projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  2:"C:\/xampp\/htdocs\/projects\/projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Fprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  4:"C:\xampp\htdocs\projects\projet-wordpress-lamanu" => "/var/www/clients/client189/web247/web"
+	SEARCH  5:"C:\\xampp\\htdocs\\projects\\projet-wordpress-lamanu" => "\/var\/www\/clients\/client189\/web247\/web"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cprojects%5Cprojet-wordpress-lamanu" => "%2Fvar%2Fwww%2Fclients%2Fclient189%2Fweb247%2Fweb"
+	SEARCH  7:"//projetwordpress.kevin" =========================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  8:"\/\/projetwordpress.kevin" =======================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH  9:"%2F%2Fprojetwordpress.kevin" =====================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 10:"//www.projetwordpress.kevin" =====================> "//asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 11:"\/\/www.projetwordpress.kevin" ===================> "\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 12:"%2F%2Fwww.projetwordpress.kevin" =================> "%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 13:"https://asuka-sushi.am.manusien-ecolelamanu.fr" ==> "http://asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 14:"https:\/\/asuka-sushi.am.manusien-ecolelamanu.fr" => "http:\/\/asuka-sushi.am.manusien-ecolelamanu.fr"
+	SEARCH 15:"https%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr" => "http%3A%2F%2Fasuka-sushi.am.manusien-ecolelamanu.fr"
+--------------------------------------
+SCANNED:	Tables:51 	|	 Rows:1896 	|	 Cells:18058 
+UPDATED:	Tables:9 	|	 Rows:398 	|	 Cells:654 
+ERRORS:		0 
+RUNTIME:	0.438400 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""c189asukasushi""
+	UPDATE DB_USER ""c189am_kevinm""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 11:33:09 - RUNTIME: 0.5141 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

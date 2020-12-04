@@ -1,0 +1,11 @@
+2020-12-04T15:34:30+00:00 CRITICAL Uncaught Error: Call to undefined function wpcf7_add_form_tag() in C:\xampp\htdocs\projects\projet-wordpress-lamanu\wp-content\plugins\contact-form-7-image-captcha\cf7-image-captcha.php:59
+Stack trace:
+#0 C:\xampp\htdocs\projects\projet-wordpress-lamanu\wp-includes\class-wp-hook.php(287): add_shortcode_cf7ic('')
+#1 C:\xampp\htdocs\projects\projet-wordpress-lamanu\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\projects\projet-wordpress-lamanu\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\projects\projet-wordpress-lamanu\wp-content\plugins\contact-form-7\load.php(114): do_action('wpcf7_init')
+#4 C:\xampp\htdocs\projects\projet-wordpress-lamanu\wp-includes\class-wp-hook.php(285): wpcf7_init()
+#5 C:\xampp\htdocs\projects\projet-wordpress-lamanu\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\projects\projet-wordpress-lamanu\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\proje dans C:\xampp\htdocs\projects\projet-wordpress-lamanu\wp-content\plugins\contact-form-7-image-captcha\cf7-image-captcha.php à la ligne 59
+
