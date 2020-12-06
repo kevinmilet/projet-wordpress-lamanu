@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-11-25 19:38:10+0000\n"
+"PO-Revision-Date: 2020-12-05 23:47:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -124,7 +124,7 @@ msgstr "Naviguer à partir de la page"
 
 #: core/settings/editor-preferences/model.php:38 core/editor/editor.php:642
 msgid "User Preferences"
-msgstr "Préférences de l’utilisateur"
+msgstr "Préférences de l’utilisateur/utilisatrice"
 
 #: core/editor/editor.php:640
 msgid "Site Settings"
@@ -419,7 +419,7 @@ msgstr "Plein écran"
 
 #: core/admin/admin-notices.php:484
 msgid "Managing a multi-user site? With Elementor Pro, you can control user access and make sure no one messes up your design."
-msgstr "Vous gérez un site multi-utilisateurs ? Avec Elementor Pro, vous pouvez contrôler l’accès des utilisateurs et vous assurer que personne ne gâche votre conception."
+msgstr "Vous gérez un site multi-utilisateurs/utilisatrices ? Avec Elementor Pro, vous pouvez contrôler l’accès des utilisateurs/utilisatrices et vous assurer que personne ne gâche votre conception."
 
 #: core/admin/admin-notices.php:439
 msgid "Using popups on your site? Build outstanding popups using Elementor Pro and get more leads, sales and subscribers."
@@ -1001,7 +1001,7 @@ msgstr "Vous aimez utiliser Elementor ? <a href=\"%s\">Découvrez comment crée
 
 #: core/editor/editor.php:783
 msgid "Become a Pro user to upload unlimited font icon folders to your website."
-msgstr "Devenez un utilisateur Pro pour téléverser un nombre illimité de dossiers d’icônes de polices sur votre site web."
+msgstr "Devenez un(e) utilisateur/utilisatrice Pro pour téléverser un nombre illimité de dossiers d’icônes de polices sur votre site."
 
 #: core/editor/editor.php:782 includes/controls/media.php:183
 msgid "Upload"
@@ -1338,7 +1338,7 @@ msgstr "Non pris en charge"
 
 #: core/common/modules/finder/categories/site.php:78
 msgid "Users"
-msgstr "Utilisateurs"
+msgstr "Utilisateurs/utilisatrices"
 
 #: core/common/modules/finder/categories/site.php:72
 msgid "Plugins"
@@ -1972,7 +1972,7 @@ msgstr "Rôle exclu"
 
 #: core/role-manager/role-manager.php:89
 msgid "Manage What Your Users Can Edit In Elementor"
-msgstr "Gérez ce que vos utilisateurs peuvent modifier dans Elementor"
+msgstr "Gérez ce que vos utilisateurs/utilisatrices peuvent modifier dans Elementor"
 
 #: core/common/modules/finder/categories/general.php:56
 #: core/role-manager/role-manager.php:31

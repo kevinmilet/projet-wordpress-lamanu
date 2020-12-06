@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-11-25 01:32:00+0000\n"
+"PO-Revision-Date: 2020-12-05 23:15:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,10 +24,6 @@ msgstr "Nom du produit parent si le produit est une variation."
 #: packages/woocommerce-admin/src/Notes/WC_Admin_Notes_WooCommerce_Payments.php:107
 msgid "By clicking \"Get started\", you agree to our %1$sTerms of Service%2$s"
 msgstr "En cliquant sur ­« Bien démarrer », vous êtes d’accord avec nos %1$sconditions d’utilisation%2$s"
-
-#: packages/woocommerce-blocks/src/Domain/Services/Email/CustomerNewAccount.php:60
-msgid "Customer \"new account\" emails are sent to the customer when a customer signs up via checkout or account blocks."
-msgstr "Les emails « Nouveau compte » sont envoyés au client quand un client s’enregistre lors de la validation de commande ou les blocs de compte."
 
 #: i18n/states.php:1509
 msgctxt "district"
@@ -125,6 +121,10 @@ msgstr "Clé méta pour l’affichage dans l’interface."
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1347
 msgid "Meta value for UI display."
 msgstr "Valeur de méta pour l’affichage dans l’interface."
+
+#: packages/woocommerce-blocks/src/Domain/Services/Email/CustomerNewAccount.php:60
+msgid "Customer \"new account\" emails are sent to the customer when a customer signs up via checkout or account blocks."
+msgstr "Les emails « Nouveau compte » sont envoyés au client ou à la cliente en même temps qu’il ou elle s’enregistre lors de la validation de commande ou les blocs de compte."
 
 #: i18n/states.php:1507
 msgctxt "district"
@@ -335,13 +335,13 @@ msgstr "Les calculs automatiques de taxe sont activés sur votre boutique avec W
 msgid "Edit tax settings"
 msgstr "Modifier les réglages de taxe"
 
-#: packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Selling_Online_Courses.php:67
-msgid "Online courses are a great solution for any business that can teach a new skill. Since courses don’t require physical product development or shipping, they’re affordable, fast to create, and can generate passive income for years to come. In this article, we provide you more information about selling courses using WooCommerce."
-msgstr "Les cours en ligne sont une excellente solution pour toute entreprise qui peut enseigner une nouvelle compétence. Comme les cours ne nécessitent pas de développement de produits physiques ni d’expédition, ils sont abordables, rapides à créer et peuvent générer des revenus passifs pour les années à venir. Dans cet article, nous vous fournissons davantage d’informations sur la vente de cours à l’aide de WooCommerce."
-
 #: packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Google_Ads_And_Marketing.php:65
 msgid "Get your products in front of millions of shoppers on Google to grow your sales"
 msgstr "Montrez vos produits à des millions d’acheteurs sur Google pour faire progresser vos ventes"
+
+#: packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Selling_Online_Courses.php:67
+msgid "Online courses are a great solution for any business that can teach a new skill. Since courses don’t require physical product development or shipping, they’re affordable, fast to create, and can generate passive income for years to come. In this article, we provide you more information about selling courses using WooCommerce."
+msgstr "Les cours en ligne sont une excellente solution pour toute entreprise qui peut enseigner une nouvelle compétence. Comme les cours ne nécessitent pas de développement de produits physiques ni d’expédition, ils sont abordables, rapides à créer et peuvent générer des revenus passifs pour les années à venir. Dans cet article, nous vous fournissons davantage d’informations sur la vente de cours à l’aide de WooCommerce."
 
 #: packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Selling_Online_Courses.php:66
 msgid "Do you want to sell online courses?"
@@ -1660,10 +1660,6 @@ msgstr "ID de la catégorie"
 msgid "List of categories, if applicable."
 msgstr "Liste des catégories, si applicable."
 
-#: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:203
-msgid "Total distinct customers."
-msgstr "Nombre total de clients distincts."
-
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductSchema.php:242
 msgid "List of attributes assigned to the product/variation that are visible or used for variations."
 msgstr "Liste des attributs assignés au produit/à la variante qui sont visibles ou utilisés par les variantes."
@@ -1702,6 +1698,10 @@ msgstr "Nos blocs vous permettent de sélectionner et d’afficher des produits,
 #: packages/woocommerce-admin/woocommerce-admin.php:109
 msgid "WooCommerce Admin development mode requires the %1$s constant to be defined and true in your %2$s file. Otherwise you are loading the admin package from WooCommerce core."
 msgstr "Le mode développement de WooCommerce Admin nécessite que la constante %1$s soit définie sur true dans votre fichier %2$s. Sinon, vous chargez le package d’administration depuis le noyau WooCommerce."
+
+#: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:203
+msgid "Total distinct customers."
+msgstr "Nombre total de comptes distincts."
 
 #: packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Customize_Store_With_Blocks.php:67
 msgid "Customize your online store with WooCommerce blocks"
@@ -1820,13 +1820,13 @@ msgstr "Le moyen de paiement « %s » n’est pas enregistré."
 msgid "Instance ID of the shipping method that provided the rate."
 msgstr "ID d’instance du mode de livraison qui a fourni le tarif."
 
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/CartShippingRateSchema.php:203
-msgid "True if this is the rate currently selected by the customer for the cart."
-msgstr "Vrai s’il s’agit des frais actuellement sélectionnés par le client pour le panier."
-
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/CartItemSchema.php:154
 msgid "Price data for the product in the current line item, including or excluding taxes based on the \"display prices during cart and checkout\" setting. Provided using the smallest unit of the currency."
 msgstr "Données de prix du produit dans le poste actuel, taxes incluses ou hors taxes en fonction du réglage « afficher les prix dans le panier et lors de la validation de commande ». Fournies en utilisant la plus petite unité de la devise."
+
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/CartShippingRateSchema.php:203
+msgid "True if this is the rate currently selected by the customer for the cart."
+msgstr "Vrai s’il s’agit des frais actuellement sélectionnés par la personne pour le panier."
 
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/CartShippingRateSchema.php:27
 msgid "The ID of the package the shipping rates belong to."
@@ -1923,10 +1923,6 @@ msgstr "Taxe totale sur la livraison."
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/CartSchema.php:194
 msgid "Total price of shipping."
 msgstr "Prix total de la livraison."
-
-#: packages/woocommerce-blocks/src/StoreApi/Schemas/CartSchema.php:206
-msgid "Total price the customer will pay."
-msgstr "Prix total payé par le client."
 
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/CartSchema.php:218
 msgid "Lines of taxes applied to items and shipping."
@@ -2071,6 +2067,10 @@ msgstr "Code d’état/comté, ou nom de l’état, du comté, de la province ou
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/CheckoutSchema.php:93
 msgid "The ID of the payment method being used to process the payment."
 msgstr "L’ID du moyen de paiement utilisé pour traiter le paiement."
+
+#: packages/woocommerce-blocks/src/StoreApi/Schemas/CartSchema.php:206
+msgid "Total price the customer will pay."
+msgstr "Prix total payé par la personne."
 
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductSchema.php:82
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/CartItemSchema.php:78
@@ -21400,11 +21400,6 @@ msgstr "Méthode de disponibilité"
 msgid "A valid free shipping coupon"
 msgstr "Un code promo de livraison gratuite valide"
 
-#: includes/shipping/free-shipping/class-wc-shipping-free-shipping.php:106
-#: includes/shipping/legacy-free-shipping/class-wc-shipping-legacy-free-shipping.php:149
-msgid "Users will need to spend this amount to get free shipping (if enabled above)."
-msgstr "Les utilisateurs auront besoin de dépenser cette somme pour obtenir la livraison gratuite (si activée ci-dessus)."
-
 #: includes/shipping/legacy-international-delivery/class-wc-shipping-legacy-international-delivery.php:58
 msgid "Selected countries"
 msgstr "Pays sélectionnés"
@@ -21980,6 +21975,11 @@ msgstr "Si votre e-mail Paypal principal diffère de l&rsquo;e-mail Paypal saisi
 #: includes/emails/class-wc-email.php:1049
 msgid "Hide template"
 msgstr "Masquer le modèle"
+
+#: includes/shipping/free-shipping/class-wc-shipping-free-shipping.php:106
+#: includes/shipping/legacy-free-shipping/class-wc-shipping-legacy-free-shipping.php:149
+msgid "Users will need to spend this amount to get free shipping (if enabled above)."
+msgstr "Les clients auront besoin de dépenser cette somme pour obtenir l’expédition gratuite (si activée ci-dessus)."
 
 #: includes/class-wc-ajax.php:233
 msgid "Coupon has been removed."
